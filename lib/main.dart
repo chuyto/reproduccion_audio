@@ -51,3 +51,12 @@ class _AudioPlayerWidgetState extends State<AudioPlayerWidget> {
     );
   }
 }
+
+/*
+Se importo la libreria en el pubspec audioplayers
+ Se cambió el uso de la URL pasando un objeto `UrlSource(audioUrl)` en lugar de un `String` directamente.
+Se agregó un listener para `onPlayerStateChanged` para detectar cuando el audio termina de reproducirse.
+Se inicializó el `AudioPlayer` en el método `initState()` para asegurar que el reproductor esté listo antes de su uso.
+*/
+
+*/
